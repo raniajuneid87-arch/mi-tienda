@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lazos para el Cabello</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="bg-pink-50 text-gray-800">
+
+  <!-- NAVBAR -->
+  <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+
+      <h1 class="text-2xl font-bold text-pink-600">
+        🎀 Lazos
+      </h1>
+
+      <div class="space-x-4 hidden md:flex">
+        <a href="#inicio" class="hover:text-pink-500">Inicio</a>
+        <a href="#catalogo" class="hover:text-pink-500">Catálogo</a>
+        <a href="#novedades" class="hover:text-pink-500">Novedades</a>
+        <a href="#nosotros" class="hover:text-pink-500">Nosotros</a>
+        <a href="#contacto" class="hover:text-pink-500">Contacto</a>
+        <a href="#login" class="hover:text-pink-500">Login</a>
+        <a href="#carrito" class="hover:text-pink-500">🛒</a>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio" class="bg-pink-200 text-center py-16 px-4">
+
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">
+      Lazos únicos para cada momento
+    </h2>
+
+    <p class="text-lg mb-6">
+      Diseños elegantes, delicados y hechos con amor 💖
+    </p>
+
+    <button class="bg-pink-500 hover:bg-pink-600 text-white px-8 py-3 rounded-xl shadow-lg transition">
+      Comprar Ahora
+    </button>
+
+  </section>
+
+  <!-- FRASE -->
+  <section class="text-center py-10 px-4">
+    <p class="text-2xl italic text-pink-600">
+      "Los pequeños detalles crean grandes estilos"
+    </p>
+  </section>
+
+  <!-- DESCRIPCIÓN -->
+  <section class="max-w-5xl mx-auto text-center px-6 pb-12">
+
+    <h3 class="text-3xl font-bold mb-4">
+      ¿Quiénes somos?
+    </h3>
+
+    <p class="text-gray-600 leading-relaxed">
+      Somos una tienda especializada en lazos para el cabello.
+      Creamos accesorios elegantes y modernos para niñas y mujeres,
+      cuidando cada detalle para ofrecer productos únicos y de calidad.
+    </p>
+
+  </section>
+
+  <!-- CATEGORÍAS -->
+  <section id="novedades" class="bg-white py-14 px-6">
+
+    <h3 class="text-3xl font-bold text-center mb-10">
+      Categorías
+    </h3>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+
+      <div class="bg-pink-100 p-8 rounded-2xl text-center shadow">
+        <h4 class="text-xl font-bold mb-2">🎀 Novedades</h4>
+        <p>Los últimos diseños de la temporada.</p>
+      </div>
+
+      <div class="bg-pink-100 p-8 rounded-2xl text-center shadow">
+        <h4 class="text-xl font-bold mb-2">🎁 Para regalar</h4>
+        <p>Detalles perfectos para ocasiones especiales.</p>
+      </div>
+
+      <div class="bg-pink-100 p-8 rounded-2xl text-center shadow">
+        <h4 class="text-xl font-bold mb-2">✨ Promociones</h4>
+        <p>Descuentos y packs especiales.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CATÁLOGO -->
+  <section id="catalogo" class="py-14 px-6">
+
+    <h3 class="text-3xl font-bold text-center mb-10">
+      Catálogo de Productos
+    </h3>
+
+    <!-- FILTROS -->
+    <div class="flex flex-wrap gap-4 justify-center mb-10">
+
+      <select class="border border-pink-300 p-2 rounded-lg">
+        <option>Color</option>
+        <option>Rosa</option>
+        <option>Blanco</option>
+        <option>Negro</option>
+      </select>
+
+      <select class="border border-pink-300 p-2 rounded-lg">
+        <option>Tamaño</option>
+        <option>Pequeño</option>
+        <option>Mediano</option>
+        <option>Grande</option>
+      </select>
+
+      <select class="border border-pink-300 p-2 rounded-lg">
+        <option>Ordenar</option>
+        <option>Más barato</option>
+        <option>Más vendido</option>
+      </select>
+
+    </div>
+
+    <!-- PRODUCTOS -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+
+      <!-- PRODUCTO -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+
+        <img src="./img/lazos-rosa.jpg" class="w-full h-72 object-cover">
+
+        <div class="p-5">
+
+          <span class="bg-pink-500 text-white text-xs px-2 py-1 rounded">
+            Nuevo
+          </span>
+
+          <h4 class="text-xl font-bold mt-3">
+            Lazo Rosa Clásico
+          </h4>
+
+          <p class="text-gray-600 mt-2 text-sm">
+            Lazo delicado ideal para eventos y uso diario.
+          </p>
+
+          <ul class="text-xs text-gray-500 mt-3 space-y-1">
+            <li> Material: Satén</li>
+            <li> Tamaño: Mediano</li>
+            <li> Color: Rosa pastel</li>
+          </ul>
+
+          <div class="flex justify-between items-center mt-4">
+
+            <p class="text-pink-600 font-bold text-xl">
+              5.00€
+            </p>
+
+            <button class="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-lg">
+              Añadir
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+
+        <img src="./img/blanco.jpg" class="w-full h-72 object-cover">
+
+        <div class="p-5">
+
+          <span class="bg-yellow-400 text-white text-xs px-2 py-1 rounded">
+            Más vendido
+          </span>
+
+          <h4 class="text-xl font-bold mt-3">
+            Lazo Blanco Elegante
+          </h4>
+
+          <p class="text-gray-600 mt-2 text-sm">
+            Perfecto para bodas y celebraciones.
+          </p>
+
+          <ul class="text-xs text-gray-500 mt-3 space-y-1">
+            <li> Material: Organza</li>
+            <li> Tamaño: Grande</li>
+            <li> Color: Blanco</li>
+          </ul>
+
+          <div class="flex justify-between items-center mt-4">
+
+            <p class="text-pink-600 font-bold text-xl">
+              7.50€
+            </p>
+
+            <button class="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-lg">
+              Añadir
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO AGOTADO -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden opacity-60">
+
+        <img src="img/dorado.jpg" class="w-full h-72 object-cover grayscale">
+
+        <div class="p-5">
+
+          <span class="bg-gray-500 text-white text-xs px-2 py-1 rounded">
+            Agotado
+          </span>
+
+          <h4 class="text-xl font-bold mt-3">
+            Lazo Dorado Premium
+          </h4>
+
+          <p class="text-gray-600 mt-2 text-sm">
+            Diseño exclusivo para ocasiones especiales.
+          </p>
+
+          <ul class="text-xs text-gray-500 mt-3 space-y-1">
+            <li> Material: Satén premium</li>
+            <li> Tamaño: Grande</li>
+            <li> Color: Dorado</li>
+          </ul>
+
+          <div class="flex justify-between items-center mt-4">
+
+            <p class="text-pink-600 font-bold text-xl">
+              4.00€
+            </p>
+
+            <button class="bg-gray-400 text-white px-4 py-2 rounded-lg cursor-not-allowed">
+              Sin stock
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CARRITO -->
+  <section id="carrito" class="bg-white py-14 px-6">
+
+    <h3 class="text-3xl font-bold text-center mb-10">
+      Carrito de Compra
+    </h3>
+
+    <div class="max-w-3xl mx-auto bg-pink-50 rounded-2xl p-6 shadow">
+
+      <div class="flex justify-between border-b pb-4 mb-4">
+        <p>Lazo Rosa Clásico</p>
+        <p>10€</p>
+      </div>
+
+      <div class="flex justify-between border-b pb-4 mb-4">
+        <p>Lazo Blanco Elegante</p>
+        <p>15€</p>
+      </div>
+
+      <div class="flex justify-between font-bold text-xl">
+        <p>Total</p>
+        <p>25€</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CHECKOUT -->
+  <section class="py-14 px-6">
+
+    <h3 class="text-3xl font-bold text-center mb-10">
+      Checkout
+    </h3>
+
+    <form class="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-lg space-y-4">
+
+      <input type="text" placeholder="Nombre completo"
+        class="w-full border border-pink-300 p-3 rounded-lg focus:ring-2 focus:ring-pink-400 outline-none">
+
+      <input type="text" placeholder="Dirección"
+        class="w-full border border-pink-300 p-3 rounded-lg focus:ring-2 focus:ring-pink-400 outline-none">
+
+      <input type="email" placeholder="Correo electrónico"
+        class="w-full border border-pink-300 p-3 rounded-lg focus:ring-2 focus:ring-pink-400 outline-none">
+
+      <button class="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-xl w-full">
+        Finalizar Compra
+      </button>
+
+    </form>
+
+  </section>
+
+  <!-- LOGIN -->
+  <section id="login" class="bg-white py-14 px-6">
+
+    <h3 class="text-3xl font-bold text-center mb-10">
+      Login / Registro
+    </h3>
+
+    <form class="max-w-md mx-auto bg-pink-50 p-8 rounded-2xl shadow-lg space-y-4">
+
+      <input type="email" placeholder="Correo electrónico" class="w-full border border-pink-300 p-3 rounded-lg">
+
+      <input type="password" placeholder="Contraseña" class="w-full border border-pink-300 p-3 rounded-lg">
+
+      <button class="bg-pink-500 hover:bg-pink-600 text-white w-full py-3 rounded-xl">
+        Entrar
+      </button>
+
+      <button class="border border-pink-500 text-pink-500 w-full py-3 rounded-xl hover:bg-pink-100">
+        Registrarse
+      </button>
+
+    </form>
+
+  </section>
+
+  <!-- PERFIL -->
+  <section class="py-14 px-6">
+
+    <h3 class="text-3xl font-bold text-center mb-10">
+      Perfil de Usuario
+    </h3>
+
+    <div class="max-w-xl mx-auto bg-white p-8 rounded-2xl shadow">
+
+      <p class="mb-3"><strong>Nombre:</strong> María López</p>
+      <p class="mb-3"><strong>Email:</strong> maria@email.com</p>
+      <p><strong>Tipo:</strong> Usuario normal</p>
+
+    </div>
+
+  </section>
+
+  <!-- ADMIN -->
+  <section class="bg-white py-14 px-6">
+
+    <h3 class="text-3xl font-bold text-center mb-10">
+      Panel de Administración
+    </h3>
+
+    <div class="max-w-5xl mx-auto">
+
+      <!-- FORMULARIO -->
+      <form class="bg-pink-50 p-6 rounded-2xl shadow-lg grid md:grid-cols-2 gap-4 mb-10">
+
+        <input type="text" placeholder="Nombre del producto"
+          class="border border-pink-300 p-3 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-pink-400 outline-none">
+
+        <input type="number" placeholder="Precio"
+          class="border border-pink-300 p-3 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-pink-400 outline-none">
+
+        <input type="text" placeholder="Categoría"
+          class="border border-pink-300 p-3 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-pink-400 outline-none">
+        <label
+          class="border-2 border-dashed border-pink-300 p-6 rounded-lg text-center cursor-pointer hover:bg-pink-100 transition block">
+
+          <span class="text-pink-400 text-3xl">📁</span>
+          <p class="text-sm text-gray-500 mt-2">Haz clic para subir imagen</p>
+          <input type="file" class="hidden">
+        </label>
+
+        <button class="bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl md:col-span-2">
+          Guardar Producto
+        </button>
+
+      </form>
+
+      <!-- TABLA -->
+      <div class="overflow-x-auto">
+
+        <table class="w-full bg-white shadow-lg rounded-xl overflow-hidden">
+
+          <thead class="bg-pink-500 text-white">
+
+            <tr>
+              <th class="p-4">Producto</th>
+              <th class="p-4">Precio</th>
+              <th class="p-4">Stock</th>
+              <th class="p-4">Acciones</th>
+            </tr>
+
+          </thead>
+
+          <tbody>
+
+            <tr class="text-center border-b">
+
+              <td class="p-4">
+                <div class="flex items-center gap-3 justify-center">
+                  <img src="./img/lazos-rosa.jpg" class="w-12 h-12 object-cover rounded-lg shadow">
+                  <span>Lazo Rosa</span>
+                </div>
+              </td>
+              <td class="p-4">10€</td>
+              <td class="p-4 text-green-600">Disponible</td>
+
+              <td class="p-4 space-x-2">
+
+                <button class="bg-blue-500 text-white px-3 py-1 rounded">
+                  Editar
+                </button>
+
+                <button class="bg-red-500 text-white px-3 py-1 rounded">
+                  Eliminar
+                </button>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="py-14 px-6">
+
+    <h3 class="text-3xl font-bold text-center mb-10">
+      Sobre Nosotros
+    </h3>
+
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+      <img src="./img/nosotross.png" class="rounded-2xl shadow-lg">
+
+      <div>
+
+        <h4 class="text-2xl font-bold mb-4">
+          Nuestra Historia
+        </h4>
+
+        <p class="text-gray-600 leading-relaxed mb-4">
+          Lazos nació como un pequeño proyecto artesanal enfocado en crear
+          accesorios únicos y delicados para el cabello.
+        </p>
+
+        <p class="text-gray-600 leading-relaxed">
+          Con el tiempo, nos convertimos en una tienda dedicada a ofrecer
+          productos modernos, elegantes y hechos con cariño para cada ocasión.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="bg-white py-14 px-6">
+
+    <h3 class="text-3xl font-bold text-center mb-10">
+      Contacto
+    </h3>
+
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10">
+
+      <!-- FORM -->
+      <form class="bg-pink-50 p-8 rounded-2xl shadow-lg space-y-4">
+
+        <input type="text" placeholder="Nombre" class="w-full border border-pink-300 p-3 rounded-lg">
+
+        <input type="email" placeholder="Correo" class="w-full border border-pink-300 p-3 rounded-lg">
+
+        <textarea placeholder="Mensaje" class="w-full border border-pink-300 p-3 rounded-lg h-32"></textarea>
+
+        <button class="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-xl w-full">
+          Enviar
+        </button>
+
+      </form>
+
+      <!-- INFO -->
+      <div class="flex flex-col justify-center">
+
+        <h4 class="text-2xl font-bold mb-4">
+          Información de Contacto
+        </h4>
+
+        <div class="space-y-3">
+
+          <p class="flex items-center gap-2">
+            <i class="fa fa-instagram text-pink-500 text-xl" aria-hidden="true"></i>
+            Instagram: @lazosshop
+          </p>
+
+          <p class="flex items-center gap-2">
+            <i class="fa fa-facebook text-blue-600 text-xl" aria-hidden="true"></i>
+            Facebook: Lazos Shop
+          </p>
+
+          <p class="flex items-center gap-2">
+            <i class="fa fa-map-marker text-red-500 text-xl" aria-hidden="true"></i>
+            Granada, España
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-pink-600 text-white py-10 px-6 mt-10">
+
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <div>
+        <h4 class="font-bold text-xl mb-4">Lazos</h4>
+        <p>
+          Tienda online especializada en lazos y accesorios para el cabello.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-xl mb-4">Información</h4>
+
+        <ul class="space-y-2">
+          <li>Envíos</li>
+          <li>Política de privacidad</li>
+          <li>Promociones</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-xl mb-4">Contacto</h4>
+
+        <p class="flex items-center gap-2">
+          <i class="fa fa-envelope text-white text-lg" aria-hidden="true"></i>
+          contacto@lazos.com
+        </p>
+
+        <p class="flex items-center gap-2 mt-2">
+          <i class="fa fa-map-marker text-white text-lg" aria-hidden="true"></i>
+          Granada, España
+        </p>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-16 border-t border-pink-400 pt-6">
+
+      <div class="flex justify-center items-center gap-2">
+        <i class="fa fa-copyright" aria-hidden="true"></i>
+
+        <p>
+          2026 Lazos - Todos los derechos reservados
+        </p>
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
