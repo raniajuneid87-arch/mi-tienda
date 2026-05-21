@@ -13,14 +13,9 @@ try {
         $password
     );
 
-    $conexion->setAttribute(
-        PDO::ATTR_ERRMODE,
-        PDO::ERRMODE_EXCEPTION
-    );
+} catch(PDOException $error){
 
-} catch(PDOException $e){
-
-    echo "Error de conexión: " . $e->getMessage();
+    echo "Error de conexión: " . $error->getMessage();
 
 }
 
